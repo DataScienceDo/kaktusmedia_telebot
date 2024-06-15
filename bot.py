@@ -5,7 +5,7 @@ from pars import titles, list_img, descriptions
 from dotenv import load_dotenv
 
 load_dotenv()
-token = os.getenv('API_TOKEN')
+token = os.getenv('API_TOKEN') # .env API_TOKEN = 'your telegram token' 
 
 inline_keyboard = telebot.types.InlineKeyboardMarkup()
 buttons = {}
